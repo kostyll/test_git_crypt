@@ -17,3 +17,27 @@
   521  git status 
 git remote add origin git@github.com:kostyll/test_git_crypt.git
 git push -u origin master
+
+ git-crypt init key.bin 
+  532  git status 
+  533  git diff
+  534  git rm dummy.json 
+  535  git rm dummy.json --cached 
+  536  git-crypt init key
+  537  git status 
+  538  rm dummy.json 
+  539  git status 
+  540  git commit -am "..."
+  541  git status 
+  542  git-crypt init key.bin 
+  543  git status 
+  544  touch dummy.json
+  545  git status 
+  546  vim.tiny dummy.
+  547  ls
+  548  vim.tiny dummy.json 
+  549  git status 
+  550  git add dummy.json 
+  551  git status 
+  552  history 
+
